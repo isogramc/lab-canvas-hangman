@@ -1,8 +1,21 @@
-.game-logo {
-
+html, body {
+  width:  100%;
+  height: 100%;
+  margin: 0;
 }
 
-#start-game-button {
+.game-logo {
+  text-align: center;
+}
+#winner{
+  display: none;
+}
+#game-over{
+  display: none;
+}
+
+#start-game-button,
+#restart-game-button {
   border: 0;
   box-shadow: 0;
   background: linear-gradient(to bottom, #9DA400, #BAC600);
